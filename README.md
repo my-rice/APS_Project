@@ -1,7 +1,9 @@
 # APS_Project
 For the implementation of the three functionalities of the APS's project, it was decided to use the Python 3.10 programming language, which, if necessary, invokes shell commands defined in the OpenSSL v 3.1.0 library.
 The software produced is responsible for implementing the functionality extensively described in the previous Work Packages. However, the purpose of the code produced is exclusively to show the correct functioning of the features and not to realise an actual client-server software application. For this reason, the code produced simulates communication between the various actors in the system, assuming that each exchange of information only takes place within a secure channel between the two actors' endpoints. This layer, which was only assumed in the code, is in reality realised by the TLS protocol.  
-It is organised into directories and files:
+
+## Code organization
+The code is organised into directories and files:
 - The directories named after an actor represent the secret information known to that actor:
 o CA: contains all the directories and files necessary for the Certificate Authority to issue certificates.
 o Player: contains its secret key and its green pass.
